@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+
+    <title>Ich bin ein Investor</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Rubik:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/vendor/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+    <script src="js/vendor/html5shiv.min.js"></script>
+    <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://use.fontawesome.com/9b701ba3c8.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+</head>
+<body>
+
+<header id="header">
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-4">
+                    <div class="top-number">
+                        <p>
+                            <i class="fa fa-phone-square"></i> +3432162478435
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-8">
+                    <div class="social">
+                        <ul class="social-share">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                        </ul>
+                        <div class="search">
+                            <form role="form">
+                                <input type="text" class="search-form" autocomplete="off" placeholder="Suche">
+                                <i class="fa fa-search"></i>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-inverse" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Geld</a>
+            </div>
+
+            <div class="navbar-collapse navbar-right">
+                <ul class="nav navbar-nav flex-row">
+                    <li class="active"><a href="index.html">Startseite</a></li>
+                    <li><a href="contact.html">Kontakte</a></li>
+                    <li><a href="terms.html">Die Allgemeinen Geschäftsbedingungen</a></li>
+                    <li><a href="policy.html">Datenschutzerklärung</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<style>
+    /*************************
+*******Header******
+**************************/
+
+    #header .search {
+        display: inline-block;
+    }
+
+    #header .navbar > .container .navbar-brand {
+        margin-left: 0;
+    }
+
+    #header .top-bar {
+        padding: 10px 0;
+        background: #191919;
+        border-bottom: 1px solid #222;
+        line-height: 28px;
+    }
+
+    .top-number {
+        color: #fff;
+    }
+
+    .top-number p {
+        margin: 0
+    }
+
+    #header .social {
+        text-align: right;
+    }
+
+    #header .social-share {
+        display: inline-block;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul.social-share li {
+        display: inline-block;
+    }
+
+    ul.social-share li a {
+        display: inline-block;
+        color: #fff;
+        background: #404040;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        border-radius: 2px;
+    }
+
+    ul.social-share li a:hover {
+        background: #c52d2f;
+        color: #fff;
+    }
+
+    #header .search i {
+        color: #fff;
+    }
+
+    #header input.search-form {
+        background: transparent;
+        border: 0 none;
+        width: 60px;
+        padding: 0 10px;
+        color: #FFF;
+        -webkit-transition: all 400ms;
+        -moz-transition: all 400ms;
+        -ms-transition: all 400ms;
+        -o-transition: all 400ms;
+        transition: all 400ms;
+    }
+
+    #header input.search-form::-webkit-input-placeholder {
+        color: transparent;
+    }
+
+    #header input.search-form:hover::-webkit-input-placeholder {
+        color: #fff;
+    }
+
+    #header  input.search-form:hover {
+        width: 180px;
+    }
+
+    #header .navbar-brand {
+        padding: 0;
+        margin: 0;
+    }
+
+    #header .navbar {
+        border-radius: 0;
+        margin-bottom: 0;
+        background: #151515;
+        padding: 15px 0;
+        padding-bottom: 0;
+    }
+
+    #header .navbar-nav {
+        margin-top: 12px;
+    }
+
+    #header .navbar-nav > li {
+        margin-left: 35px;
+        padding-bottom: 28px;
+    }
+
+    #header .navbar-inverse .navbar-nav > li > a {
+        padding: 5px 12px;
+        margin: 0;
+        border-radius: 3px;
+        color: #fff;
+        line-height: 24px;
+        display: inline-block;
+    }
+
+    #header .navbar-inverse .navbar-nav > li > a:hover {
+        background-color: #c52d2f;
+        color: #fff;
+    }
+
+    #header .navbar-inverse {
+        border: none;
+    }
+
+    #header .navbar-inverse .navbar-brand {
+        font-size: 36px;
+        line-height: 50px;
+        color: #fff;
+    }
+
+    #header .navbar-inverse .navbar-nav > .active > a,
+    #header .navbar-inverse .navbar-nav > .active > a:hover,
+    #header .navbar-inverse .navbar-nav > .active > a:focus,
+    #header .navbar-inverse .navbar-nav > .open > a,
+    #header .navbar-inverse .navbar-nav > .open > a:hover,
+    #header .navbar-inverse .navbar-nav > .open > a:focus {
+        background-color: #c52d2f;
+        color: #fff;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu {
+        background-color: rgba(0, 0, 0, .85);
+        -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+        -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+        border: 0;
+        padding: 0;
+        margin-top: 0;
+        border-top: 0;
+        border-radius: 0;
+        left: 0;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu:before {
+        position: absolute;
+        top: 0;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li > a {
+        padding: 8px 15px;
+        color: #fff;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
+        background-color: #c52d2f;
+        color: #fff;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li:last-child > a {
+        border-radius: 0 0 3px 3px;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li.divider {
+        background-color: transparent;
+    }
+
+    #header .navbar-inverse .navbar-collapse,
+    #header .navbar-inverse .navbar-form {
+        border-top: 0;
+        padding-bottom: 0;
+    }
+</style>
+
+<section class="contact-area section-padding-100-0">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12 col-lg-6">
+                <div class="contact-content mb-100">
+                    <h4>Kontakte</h4>
+                    <!-- Single Contact Info -->
+                    <div class="single-contact-info">
+                        <h6>Adresse:</h6>
+                        <h4>Blankstr. 4b
+20673 Neu-Ulm</h4>
+                    </div>
+
+                    <!-- Single Contact Info -->
+                    <div class="single-contact-info">
+                        <h6>Email:</h6>
+                        <h4>steffen50@arnold.org</h4>
+                    </div>
+
+                    <!-- Single Contact Info -->
+                    <div class="single-contact-info">
+                        <h6>Telefonnummer:</h6>
+                        <h4>+5612423823477</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="contact-content mb-100">
+                    <h4>Hinterlasse einen Kommentar</h4>
+
+                    <!-- Contact Form Area -->
+                    <div class="contact-form-area">
+                        <form action="thanks.html" method="post">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="contact-name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="contact-lastname" placeholder="Familienname">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="contact-email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="contact-phone" placeholder="Telefonnummer">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Der Text des Kommentars"></textarea>
+                                <label class="terms-field">
+                                    <input type="checkbox" name="terms" value="check" required="">
+                                    <a href="policy.html" target="_blank">
+                                        Habe ich gelesen und erkläre mich damit einverstanden
+                                    </a>
+                                </label>
+                            </div>
+                            <button type="submit" class="btn nikki-btn mt-15">Senden</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<style>
+    .section-padding-100-0 {
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+    .contact-content {
+        position: relative;
+        z-index: 2;
+    }
+    .mb-100 {
+        margin-bottom: 100px !important;
+    }
+    .contact-content h4 {
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        font-size: 45px;
+    }
+    .contact-content .single-contact-info {
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .contact-content .single-contact-info h6 {
+        font-size: 18px;
+        color: #595959;
+        font-weight: 500;
+    }
+    .contact-content .single-contact-info h4 {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .contact-form-area .form-control {
+        position: relative;
+        z-index: 2;
+        height: 50px;
+        width: 100%;
+        background-color: #ffffff;
+        font-size: 14px;
+        margin-bottom: 15px;
+        border: 1px solid #ebebeb;
+        border-radius: 0;
+        padding: 15px 30px;
+        color: #a6a6a6;
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+    }
+    .contact-form-area textarea.form-control {
+        height: 120px;
+    }
+    .nikki-btn {
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        min-width: 180px;
+        height: 50px;
+        color: #191919;
+        background-color: #ffffff;
+        border: 1px solid #191919;
+        border-radius: 2px;
+        padding: 0 30px;
+        font-size: 14px;
+        line-height: 48px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    .mt-15 {
+        margin-top: 15px !important;
+    }
+</style>
+
+<footer id="footer" class="midnight-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                All Rights Reserved.
+            </div>
+            <div class="col-sm-6">
+                <ul class="pull-right">
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="contact.html">Kontakte</a></li>
+                    <li><a href="terms.html">Die Allgemeinen Geschäftsbedingungen</a></li>
+                    <li><a href="policy.html">Datenschutzerklärung</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    #footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: #fff;
+        background: #2e2e2e;
+    }
+
+    #footer a {
+        color: #fff;
+    }
+
+    #footer a:hover {
+        color: #c52d2f;
+    }
+
+    #footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #footer ul > li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+</style>

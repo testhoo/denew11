@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+
+    <title>Ich bin ein Investor</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Rubik:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/vendor/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+    <script src="js/vendor/html5shiv.min.js"></script>
+    <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://use.fontawesome.com/9b701ba3c8.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+</head>
+<body>
+
+<header id="header">
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-4">
+                    <div class="top-number">
+                        <p>
+                            <i class="fa fa-phone-square"></i> +3432162478435
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-8">
+                    <div class="social">
+                        <ul class="social-share">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                        </ul>
+                        <div class="search">
+                            <form role="form">
+                                <input type="text" class="search-form" autocomplete="off" placeholder="Suche">
+                                <i class="fa fa-search"></i>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-inverse" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Geld</a>
+            </div>
+
+            <div class="navbar-collapse navbar-right">
+                <ul class="nav navbar-nav flex-row">
+                    <li class="active"><a href="index.html">Startseite</a></li>
+                    <li><a href="contact.html">Kontakte</a></li>
+                    <li><a href="terms.html">Die Allgemeinen Geschäftsbedingungen</a></li>
+                    <li><a href="policy.html">Datenschutzerklärung</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<style>
+    /*************************
+*******Header******
+**************************/
+
+    #header .search {
+        display: inline-block;
+    }
+
+    #header .navbar > .container .navbar-brand {
+        margin-left: 0;
+    }
+
+    #header .top-bar {
+        padding: 10px 0;
+        background: #191919;
+        border-bottom: 1px solid #222;
+        line-height: 28px;
+    }
+
+    .top-number {
+        color: #fff;
+    }
+
+    .top-number p {
+        margin: 0
+    }
+
+    #header .social {
+        text-align: right;
+    }
+
+    #header .social-share {
+        display: inline-block;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul.social-share li {
+        display: inline-block;
+    }
+
+    ul.social-share li a {
+        display: inline-block;
+        color: #fff;
+        background: #404040;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        border-radius: 2px;
+    }
+
+    ul.social-share li a:hover {
+        background: #c52d2f;
+        color: #fff;
+    }
+
+    #header .search i {
+        color: #fff;
+    }
+
+    #header input.search-form {
+        background: transparent;
+        border: 0 none;
+        width: 60px;
+        padding: 0 10px;
+        color: #FFF;
+        -webkit-transition: all 400ms;
+        -moz-transition: all 400ms;
+        -ms-transition: all 400ms;
+        -o-transition: all 400ms;
+        transition: all 400ms;
+    }
+
+    #header input.search-form::-webkit-input-placeholder {
+        color: transparent;
+    }
+
+    #header input.search-form:hover::-webkit-input-placeholder {
+        color: #fff;
+    }
+
+    #header  input.search-form:hover {
+        width: 180px;
+    }
+
+    #header .navbar-brand {
+        padding: 0;
+        margin: 0;
+    }
+
+    #header .navbar {
+        border-radius: 0;
+        margin-bottom: 0;
+        background: #151515;
+        padding: 15px 0;
+        padding-bottom: 0;
+    }
+
+    #header .navbar-nav {
+        margin-top: 12px;
+    }
+
+    #header .navbar-nav > li {
+        margin-left: 35px;
+        padding-bottom: 28px;
+    }
+
+    #header .navbar-inverse .navbar-nav > li > a {
+        padding: 5px 12px;
+        margin: 0;
+        border-radius: 3px;
+        color: #fff;
+        line-height: 24px;
+        display: inline-block;
+    }
+
+    #header .navbar-inverse .navbar-nav > li > a:hover {
+        background-color: #c52d2f;
+        color: #fff;
+    }
+
+    #header .navbar-inverse {
+        border: none;
+    }
+
+    #header .navbar-inverse .navbar-brand {
+        font-size: 36px;
+        line-height: 50px;
+        color: #fff;
+    }
+
+    #header .navbar-inverse .navbar-nav > .active > a,
+    #header .navbar-inverse .navbar-nav > .active > a:hover,
+    #header .navbar-inverse .navbar-nav > .active > a:focus,
+    #header .navbar-inverse .navbar-nav > .open > a,
+    #header .navbar-inverse .navbar-nav > .open > a:hover,
+    #header .navbar-inverse .navbar-nav > .open > a:focus {
+        background-color: #c52d2f;
+        color: #fff;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu {
+        background-color: rgba(0, 0, 0, .85);
+        -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+        -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+        border: 0;
+        padding: 0;
+        margin-top: 0;
+        border-top: 0;
+        border-radius: 0;
+        left: 0;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu:before {
+        position: absolute;
+        top: 0;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li > a {
+        padding: 8px 15px;
+        color: #fff;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
+        background-color: #c52d2f;
+        color: #fff;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li:last-child > a {
+        border-radius: 0 0 3px 3px;
+    }
+
+    #header .navbar-inverse .navbar-nav .dropdown-menu > li.divider {
+        background-color: transparent;
+    }
+
+    #header .navbar-inverse .navbar-collapse,
+    #header .navbar-inverse .navbar-form {
+        border-top: 0;
+        padding-bottom: 0;
+    }
+</style>
+
+<div class="section blog-item">
+    <!-- CONTAINER -->
+    <div class="container">
+        <!-- ROW -->
+        <div class="row">
+            <!-- Main Column -->
+            <div class="col-md-8 col-md-offset-2">
+
+                <!-- ARTICLE POST -->
+                <article class="article article-post">
+                    <div class="article-main-img">
+                        <img src="./assets/images/mayofi-cqqcuw1lyla-unsplash.jpg" alt="">
+                    </div>
+                    <div class="article-body">
+                        <h1 class="article-title">Wie man Reich ohne viel Aufwand (5 guten Tipps)</h1>
+                        <ul class="article-meta">
+                            <li><i class="fa fa-clock-o"></i> 30.08.2021</li>
+                            <li><i class="fa fa-comments"></i> 13</li>
+                        </ul>
+                        <p> <strong></strong> Haben Sie sich jemals gefragt, warum manche Menschen immer schon "finanziell erfolgreich", während andere mussten Ihr Leben "für die Schnitzel"?Und warum ist es mit dem ehemaligen, Sie haben "nichts zu verlieren" und kann nicht verstehen, wie alles, was im Leben passiert? in?Es scheint verwandt zu sein, um die fehlerhafte Einstellung zu Ihrem eigenen finanziellen Wohlbefinden.In diesem Artikel werden wir reden darüber, wie, um Ihre "Beziehung" mit Ihrem Geld zu finden, um Wohlstand und materiellen Wohlstand. Wohlbefinden.In Erster Linie müssen Sie verstehen, wie der Finanzsektor funktioniert und wie es funktioniert. es ist Teil der Wirtschaft.Die Tatsache ist, dass alle Branchen sind betroffen, die durch das "Verhalten" Ihrer Kunden (Kunden, Mitarbeiter, etc.). Industrie).Daher macht es Sinn, den Fokus auf die Gründung einer "Beziehung" mit-Geld — um zu verstehen, seine "wahre Natur" und wie es "richtig" zu lösen Ihre Probleme. Geld Probleme.Um dies zu tun, müssen Sie etwas, das wie ein notebook (oder einen kleinen computer-Bildschirm), einen Stift und einen Stift. schreiben Buch.Das ist alles dort ist zu ihm.Nichts anderes ist erforderlich.Und dies ist der wichtigste Schritt.Egal, wie viel Sie verdienen, müssen Sie immer "Notizen" auf die Ergebnisse. Sie müssen Ihre Erfolge aufzuzeichnen, schriftlich.Dies wird Ihnen helfen, im Laufe der Zeit schaffen, die situation, wo Sie in der Lage zu starten, um "Freunde" mit Ihren Finanzen.Beginnen Sie mit der kleinsten Dinge und nach und nach bauen Sie Ihre Karriere. financial capital.5 gute Tipps, um Ihre Gewinne zu erhöhen.:1) aktiv Sein.In der Nachfrage heute ist nicht eine schlechte Sache überhaupt. Es ist schlimm, wenn es "sinkt Ihr Einkommen".Also nicht faul sein!Nehmen Vorteil von heute-Trends, Chancen (und verpassen Sie nicht Ihre chance, es zu tun).2) sparen.Heute gibt es eine Vielzahl von Möglichkeiten, um tun Sie dies. Darüber hinaus gibt es nicht nur die sogenannten "finanziellen Polster".Es ist einfach nur so ein sack, den Sie verwenden können, in schwierigen Zeiten (wenn Sie benötigen mehr Geld).3) zu investieren und Reich zu werden.Machen Sie Ihr Geld "arbeiten" für Sie.Um dies zu tun, investieren Sie in Anlagen wachsen werden Ihr Geld (in der Zukunft).Es ist Zeit zu beginnen, zu investieren (buy-Dollar, Aktien und anderen Finanzinstrumenten):mit Dieser Option können Sie allmählich bilden ein beeindruckendes Kapital, die Einnahmen werden vollständig unterstützt Sie und Ihre ganze Familie. 1) Lesen Sie meinen Artikel " Wo NICHT, um Geld zu investieren? TOP 3 der gefährlichsten Orte für Geld". 2) Lesen Sie meinen Artikel "was Fähigkeiten, die Sie benötigen, um Reich zu werden".</p>
+                    </div>
+                </article>
+                <!-- /ARTICLE POST -->
+            </div>
+            <!-- /Main Column -->
+        </div>
+        <!-- /ROW -->
+    </div>
+    <!-- /CONTAINER -->
+</div>
+
+<style>
+    .blog-item {
+        padding: 80px 0;
+    }
+    .article {
+        position:relative;
+        margin-bottom:30px;
+    }
+
+    .article .article-img > a {
+        display:block;
+    }
+
+    .article .article-img > a:after {
+        content:"";
+        position:absolute;
+        left:0;
+        top:0;
+        right:0;
+        bottom:0;
+        background: #222;
+        opacity:0;
+        -webkit-transition:0.2s opacity;
+        transition:0.2s opacity;
+    }
+
+    .article:hover .article-img > a:after {
+        opacity:0.3;
+    }
+
+    .article .article-img {
+        position:relative;
+        overflow:hidden;
+        margin-bottom:15px;
+    }
+
+    .article .article-img img {
+        width:100%;
+        -webkit-transition:0.5s -webkit-transform;
+        transition:0.5s -webkit-transform;
+        transition:0.5s transform;
+        transition:0.5s transform, 0.5s -webkit-transform;
+    }
+
+    .article:hover .article-img img {
+        -webkit-transform:scale(1.1);
+        -ms-transform:scale(1.1);
+        transform:scale(1.1);
+    }
+
+    .article .article-img  .article-info {
+        position:absolute;
+        bottom:15px;
+        left:15px;
+        z-index:22;
+    }
+
+    .article .article-body .article-info {
+        margin-bottom:15px;
+    }
+
+    .article .article-info li {
+        display:inline-block;
+        margin-right:-2px;
+    }
+
+    .article .article-info .article-type {
+        width:30px;
+        height: 30px;
+        line-height: 30px;
+        text-align:center;
+        background: #222;
+        color: #FFF;
+        font-size: 12.5px;
+    }
+
+    .article .article-info .article-category > a {
+        display:block;
+        padding: 0px 15px;
+        height: 30px;
+        line-height: 30px;
+        background: #EF233C;
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 12.5px;
+    }
+
+    .article .article-info .article-category > a:hover {
+        opacity:0.8;
+    }
+
+    .article .article-title {
+        text-transform: uppercase;
+        margin-top:0px;
+    }
+
+    .article .article-title > a {
+        font-weight:700;
+    }
+
+    .article .article-meta {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .article .article-meta li {
+        display:inline-block;
+        color:#DDD;
+        font-weight:400;
+        font-size:12.5px;
+        text-transform:uppercase;
+    }
+
+    .article .article-meta li + li {
+        margin-left:10px;
+    }
+
+    .article ul {
+        padding: 0;
+        margin: 0;
+    }
+</style>
+
+<footer id="footer" class="midnight-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                All Rights Reserved.
+            </div>
+            <div class="col-sm-6">
+                <ul class="pull-right">
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="contact.html">Kontakte</a></li>
+                    <li><a href="terms.html">Die Allgemeinen Geschäftsbedingungen</a></li>
+                    <li><a href="policy.html">Datenschutzerklärung</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    #footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: #fff;
+        background: #2e2e2e;
+    }
+
+    #footer a {
+        color: #fff;
+    }
+
+    #footer a:hover {
+        color: #c52d2f;
+    }
+
+    #footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #footer ul > li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+</style>
